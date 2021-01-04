@@ -1,0 +1,131 @@
+{
+  "main": {
+    "name":"Dima Owens",
+    "phone": "00971526089251",
+    "description":"I was never excited as I am now, or nothing was exciting as the coding…",
+    "image":"profilepic.jpg",
+    "bio":"Passionate entry-level full-stack developer with 4+ months of experience building full-stack projects, using MERN Stack & python django. Currently I am very convenient with javascript since I have been working on it for the last 5 months. Seeking a full-stack development role to pursue my passion for developing effective full-stack software products, where later on with improveing my knowledge and experience, upgrade my standing in the company.",
+    "contactmessage":"Get Connected",
+    "email": "dima.owens@gmail.com",
+    
+    
+    "social":[
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/dima-owens-75169a166/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"github",
+        "url":"https://github.com/dimaOwens",
+        "className":"fa fa-github"
+      }
+    ]
+  },
+  "resume":{
+    "skillmessage":"Languages and technologies i worked with before, some need review depending on the usage need",
+    "education":[
+      {
+        "school":"Birzeit University",
+        "degree":"Computer Software Engineering",
+        "graduated":"June 2019",
+        "howItFeels": "Now that I am more aware of what I want, if I lived the university time again I would live it a lot different, but also conscious enough not to confine myself 5 years again, and my greatest win was meeting my two heartworm friendships"
+      }
+    ],
+    "experience":[
+      {
+        "company":"ReBootKamp Hack-reactor",
+        "title":"Passionate trainee",
+        "duration":"August 2020 - January 2021",
+        "feeling": "Best 5 months, it worth every single day, learning, practicing, improving, being passionate in what I am doing, realizing that programming is the thing I want to do for the rest of my life, if I have to describe my experiment with 1 sentence it would be: Here I started",
+        "projects_intro":"Immersive 5 months of full-stack development practicing & overall improved skills, main team projects:",
+        "projects": {
+          "hotelCom": {
+            "phase":"(green field project)",
+            "technoligies":"Reactjs, Nodejs, MongoDB, Express (MERN-Stack)",
+            "description":"Website that enables users viewing the available hotels of the decided specifications (city, date, rooms needed), using hotels API, connected with stripe API for booking & using JWT for user authentication."
+          },
+          "Explore Palestine":{
+            "phase":"(legacy project)",
+            "technologies": "MERN-Stack",
+            "description":"Website that enables the user book a trip. Here as teams, we exchanged the projects that we had created before (the green field project like the above one) so we picked this website then added many features to it like the ability to chat between users, admin-user with the ability to add new trips, delete users or make them admins, send trip invitation to other user…, payment process using stripe API."
+          },
+          "kiddo":{
+            "phase":"(thesis project)",
+            "technologies": "Python Django, React-Native",
+            "description":"A chance to practice new technologies on an idea I wished, an online environment provide safe content for the kids to discover, so we created an android mobile app with kid friendly interface, where kids can have fun and learn. Using python for backend, with django rest framewark."
+          }
+        }
+
+      }] 
+    ,
+    "skills":[
+     
+      {
+        "name":"Jacascript"
+      },
+      {
+        "name":"ReactJs"
+      },
+      {
+        "name":"CSS"
+      },
+      {
+        "name":"HTML"
+      },
+      {
+        "name":"JQuery"
+      },
+      {
+        "name":"MongoDB"
+      },
+      {
+        "name":"MySQL"
+      },
+      {
+        "name":"Python"
+      },
+      {
+        "name":"Java"
+      },
+      {
+        "name":"C"
+      },
+      {
+        "name":"Data Structures & Algorithms"
+      },
+      {
+        "name":"Computer Networking"
+      },
+      {
+        "name":"Git"
+      }  
+    ]
+  },
+  "portfolio":{
+    "projects": [
+      {
+        "title":"HotelCom",
+        "category":"green field project",
+        "image":"hotelcom.PNG",
+        "github":"https://github.com/Raptors-team/green-field-project",
+        "url":"https://raptors-hotels.herokuapp.com/"
+      },
+      {
+        "title":"Kiddo",
+        "category":"thesis project",
+        "image":"kiddo.png",
+        "github":"https://github.com/TheBlackPearl-FinaleProject/Kiddo",
+        "url":"https://kiddoi.web.app/"
+      },
+      {
+        "title":"Explore Palestine",
+        "category":"legacy project",
+        "image":"explorepalestine.PNG",
+        "github":"https://github.com/Raptors-team/laflefne",
+        "url":"https://laflefne.herokuapp.com/"
+      } 
+    ]
+  }
+
+}
