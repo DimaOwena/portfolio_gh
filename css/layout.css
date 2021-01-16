@@ -130,6 +130,7 @@ header .scrolldown a:hover { color: #11ABB0; }
 
 /* nav-wrap */
 #nav-wrap {
+   
    font: 12px 'opensans-bold', sans-serif;
    width: 100%;
    text-transform: uppercase;
@@ -139,6 +140,8 @@ header .scrolldown a:hover { color: #11ABB0; }
    position: fixed;
    left: 0;
    top: 0;
+   background-color: rgba(0, 0, 0, 0.3) !important;
+   
 }
 .opaque { background-color: #333; }
 
@@ -291,6 +294,7 @@ ul#nav li.current a { color: #F06000; }
 	padding: 0;
 	text-align: left;
 }
+
 .bars .skills {
   	margin-top: 36px;
    list-style: none;
@@ -417,17 +421,18 @@ ul#nav li.current a { color: #F06000; }
 /* ------------------------------------------------------------------ */
 
 #portfolio {
-   background: #ebeeee;
+   background:#2B2B2B;;
    padding-top: 90px;
    padding-bottom: 60px;
 }
 #portfolio h1 {
-   font: 15px/24px 'opensans-semibold', sans-serif;
+   font: 20px/28px 'opensans-bold', sans-serif;
+   color: #fff;
    text-transform: uppercase;
    letter-spacing: 1px;
    text-align: center;
    margin-bottom: 48px;
-   color: #95A3A3;
+  
 }
 
 /* Portfolio Content */
@@ -501,6 +506,9 @@ ul#nav li.current a { color: #F06000; }
 .portfolio-item .portfolio-item-meta { padding: 18px }
 .portfolio-item .portfolio-item-meta h5 {
    font: 14px/21px 'opensans-bold', sans-serif;
+   color: #fff;
+}
+h5 {
    color: #fff;
 }
 .portfolio-item .portfolio-item-meta p {
@@ -1013,3 +1021,21 @@ footer .social-links li:first-child { margin-left: 0; }
  	border-radius: 100%;
 }
 #go-top a:hover { background-color: #0F9095; }
+
+
+.unskills {
+   -webkit-column-count: 3;
+   -moz-column-count: 3;
+    column-count: 3;
+}
+
+#submit {
+   border: 1px solid #ccc;
+   vertical-align:middle;
+   text-align:center;
+}
+
+#submit-div {
+   display: flex;
+   justify-content: center;
+}
