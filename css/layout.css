@@ -292,7 +292,7 @@ ul#nav li.current a { color: #F06000; }
 	width: 95%;
 	float: left;
 	padding: 0;
-	text-align: left;
+   text-align: left;
 }
 
 .bars .skills {
@@ -307,7 +307,7 @@ ul#nav li.current a { color: #F06000; }
   	border-radius: 3px;
 }
 .bars li em {
-	font: 15px 'opensans-bold', sans-serif;
+   font: 15px 'opensans-bold', sans-serif;
    color: #313131;
 	text-transform: uppercase;
    letter-spacing: 2px;
@@ -436,6 +436,8 @@ ul#nav li.current a { color: #F06000; }
 }
 
 /* Portfolio Content */
+/*my edition*/
+
 #portfolio-wrapper .columns { margin-bottom: 36px; }
 .portfolio-item .item-wrap {
    background: #fff;
