@@ -67,9 +67,9 @@ class Contact extends Component {
                      <textarea cols="50" rows="15" id="contactMessage" name="contactMessage"  onChange={this.handleChange}></textarea>
                   </div>
 
-                  <div>
+                  <div id="submit-div">
                      {/* <button className="submit" onClick={this.sendEmail}>Submit</button>  */}
-                     <a href={`https://mail.google.com/mail/u/0/?view=cm&fs=1&to=dima.owens@gmail.com&su=${this.state.contactSubject}&body=${this.state.contactMessage}&tf=1`} >submit</a>
+                   <label id="submit"><a href={`https://mail.google.com/mail/u/0/?view=cm&fs=1&to=dima.owens@gmail.com&su=${this.state.contactSubject}&body=${this.state.contactMessage}&tf=1`} >submit</a></label>  
                      <span id="image-loader">
                         <img alt="" src="images/loader.gif" />
                      </span>

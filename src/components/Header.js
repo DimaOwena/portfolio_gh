@@ -19,13 +19,13 @@ class Header extends Component {
          <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
 	      <a className="mobile-btn" href="#home" title="Hide navigation">Hide navigation</a>
 
-         <ul id="nav" className="nav">
-            <li className="current"><a className="smoothscroll" href="#home">Home</a></li>
-            <li><a className="smoothscroll" href="#about">About</a></li>
-	         <li><a className="smoothscroll" href="#resume">Resume</a></li>
-            <li><a className="smoothscroll" href="#portfolio">Experience</a></li>
+         <ul id="nav" className="nav" >
+            <li className="current" ><a className="smoothscroll" href="#home" style={{fontSize:14}}>Home</a></li>
+            <li><a className="smoothscroll" href="#about" style={{fontSize:14}}>About</a></li>
+	         <li><a className="smoothscroll" href="#resume" style={{fontSize:14}}>Resume</a></li>
+            <li><a className="smoothscroll" href="#portfolio" style={{fontSize:14}}>Experience</a></li>
             {/* <li><a className="smoothscroll" href="#testimonials">Testimonials</a></li> */}
-            <li><a className="smoothscroll" href="#contact">Contact</a></li>
+            <li><a className="smoothscroll" href="#contact" style={{fontSize:14}}>Contact</a></li>
          </ul>
 
       </nav>
@@ -33,7 +33,7 @@ class Header extends Component {
       <div className="row banner">
          <div className="banner-text">
             <h1 className="responsive-headline">I'm {name}.</h1>
-            <h3> {description}.</h3>
+            <h3 style={{fontSize:20, color:"white"}}> {description}.</h3>
             <hr />
             <ul className="social">
                {networks}

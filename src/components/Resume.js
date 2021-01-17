@@ -13,13 +13,13 @@ class Resume extends Component {
       var experience = this.props.data.experience.map(function(experience){
         return <div key={experience.company}><h3>{experience.company}</h3>
             <p className="info">{experience.title}<span>&bull;</span> <em className="date">{experience.duration}</em></p>
-            <p>{experience.description}</p>
+            <p style={{color:'black'}}>{experience.description}</p>
             <p>{experience.feeling}</p>
 
         </div>
       })
       var skills = this.props.data.skills.map(function(skills){
-        return <li key={skills.name}><em>{skills.name}</em></li>
+        return <li id="skilllist" key={skills.name} style={{color:'black'}}><em style={{fontSize:18}}>{skills.name}</em></li>
       })
     }
 
@@ -28,7 +28,7 @@ class Resume extends Component {
 
       <div className="row education">
          <div className="three columns header-col">
-            <h1><span>Education</span></h1>
+            <h1 style={{fontSize:20}}><span>Education</span></h1>
          </div>
 
          <div className="nine columns main-col">
@@ -44,10 +44,10 @@ class Resume extends Component {
       <div className="row work">
 
          <div className="three columns header-col">
-            <h1><span>Experience</span></h1>
+            <h1 style={{fontSize:20}}><span>Experience</span></h1>
          </div>
 
-         <div className="nine columns main-col">
+         <div className="nine columns main-col" style={{color:'black', fontSize:18,textAlign:"justify",textJustify: "inter-word"}}>
           {experience}
         </div>
     </div>
@@ -57,16 +57,16 @@ class Resume extends Component {
       <div className="row skill">
 
          <div className="three columns header-col">
-            <h1><span>Skills</span></h1>
+            <h1 style={{fontSize:20}}><span>Skills</span></h1>
          </div>
 
-         <div className="nine columns main-col">
+         <div className="nine columns main-col" >
 
-            <p>{skillmessage}
+            <p style={{color:'	#585858', fontSize:16}}>{skillmessage}
             </p>
 
-				<div>
-				   <ul className="skills">
+				<div >
+				   <ul className="skills unskills">
 					  {skills}
 					</ul>
 				</div>

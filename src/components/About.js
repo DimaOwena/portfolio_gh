@@ -20,15 +20,15 @@ class About extends Component {
          <div className="nine columns main-col">
             <h2>About Me</h2>
 
-            <p>{bio}</p>
+            <p style={{color:'white', textAlign: 'justify',textJustify: 'inter-word'}}>{bio}</p>
             <div className="row">
                <div className="columns contact-details">
                   <h2>Contact Details</h2>
                   <p className="address">
-						   <span>{name}</span><br />
+						   <span style={{color:'white'}}>{name}</span><br />
 						   <br />
-						   <span>{phone}</span><br />
-                     <span>{email}</span>
+						   <span style={{color:'white'}}>{phone}</span><br />
+                     <span style={{color:'white'}}>{email}</span>
 					   </p>
                </div>
                {/* <div className="columns download">
