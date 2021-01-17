@@ -20,7 +20,7 @@ class About extends Component {
          <div className="nine columns main-col">
             <h2>About Me</h2>
 
-            <p style={{color:'white', textAlign: 'justify',textJustify: 'inter-word'}}>{bio}</p>
+            <p style={{color:'white', textAlign: 'justify',textJustify: 'inter-word', fontSize:16}}>{bio}</p>
             <div className="row">
                <div className="columns contact-details">
                   <h2>Contact Details</h2>

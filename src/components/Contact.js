@@ -69,7 +69,7 @@ class Contact extends Component {
 
                   <div id="submit-div">
                      {/* <button className="submit" onClick={this.sendEmail}>Submit</button>  */}
-                   <label id="submit"><a href={`https://mail.google.com/mail/u/0/?view=cm&fs=1&to=dima.owens@gmail.com&su=${this.state.contactSubject}&body=${this.state.contactMessage}&tf=1`} >submit</a></label>  
+                   <label id="submit" style={{borderRadius:4}}><a href={`https://mail.google.com/mail/u/0/?view=cm&fs=1&to=dima.owens@gmail.com&su=${this.state.contactSubject}&body=${this.state.contactMessage}&tf=1`} >submit</a></label>  
                      <span id="image-loader">
                         <img alt="" src="images/loader.gif" />
                      </span>
