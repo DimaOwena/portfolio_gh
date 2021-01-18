@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import Pulse from 'react-reveal/Pulse';
 class Header extends Component {
   render() {
 
@@ -33,7 +33,8 @@ class Header extends Component {
       <div className="row banner">
          <div className="banner-text">
             <h1 className="responsive-headline">I'm {name}.</h1>
-            <h3 style={{fontSize:20, color:"white"}}> {description}.</h3>
+          <Pulse><h2 className="responsive-headline" style={{color:"white",fontFamily:"Trebuchet MS, sans-serif"}}>Full-Stack Software Engineer</h2></Pulse>  
+            <h3 className="responsive-headline" style={{fontSize:24, color:"white",fontFamily:"Trebuchet MS, sans-serif"}}> {description}.</h3>
             <hr />
             <ul className="social">
                {networks}
