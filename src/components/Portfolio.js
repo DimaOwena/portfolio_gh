@@ -32,13 +32,13 @@ class Portfolio extends Component {
                         <a href={projects.url} title={projects.title} target="_blank">
                           <div className="overlay">
                             <div className="portfolio-item-meta">
-                              <Pulse> <h5 style={{fontSize:26,fontFamily:"URW Chancery L, cursive"}}>{projects.title}</h5></Pulse> 
-                              <a href={projects.github} target="_blank"> <p  style={{fontFamily:"URW Chancery L, cursive",fontSize:18 }}>{projects.category} : github repositary</p></a>
+                              <Pulse> <h5 style={{fontSize:26,fontFamily:"Helvetica, Arial, sans-serif"}}>{projects.title}</h5></Pulse> 
+                              <a href={projects.github} target="_blank"> <p  style={{fontFamily:"Helvetica, Arial, sans-serif",fontSize:18 }}>{projects.category} : github repositary</p></a>
                             </div>
                           </div>
                         </a>
-                        <p style={{fontFamily:"URW Chancery L, cursive",fontSize:18 }}>Technologies: {projects.technologies}</p>
-                        <p style={{fontSize:18 ,textAlign: 'justify',textJustify: 'inter-word', fontFamily:"cursive"}}>{projects.description}</p>
+                        <p style={{fontFamily:"Helvetica, Arial, sans-serif",fontSize:18 }}>Technologies: {projects.technologies}</p>
+                        <p style={{fontSize:18 ,textAlign: 'justify',textJustify: 'inter-word', fontFamily:"Helvetica, Arial, sans-serif"}}>{projects.description}</p>
                          {projects.title === "kiddo"?<label id="submit-div" style={{borderRadius:6, border: "1px solid white", width:'30%'}}><a href="https://www.youtube.com/watch?v=Vg748ApTsuI&feature=youtu.be&ab_channel=RazanAbusamra" target="_blank">Demo Video</a></label>:
                         <></> }
                       </div> 
@@ -58,8 +58,8 @@ class Portfolio extends Component {
 
          <div className="twelve columns collapsed">
 
-            <h1 style={{fontSize:26, fontFamily:"URW Chancery L, cursive"}}>Check Out My Work</h1> 
-            <p style={styleRed} style={{fontSize:18, color:'white',  padding:'7%', alignContent:'center',fontFamily:"URW Chancery L, cursive"}} >          Through <b> ReBootKamp </b>experience, as team we worked on these projects:                  </p>
+            <h1 style={{fontSize:26, fontFamily:"Helvetica, Arial, sans-serif"}}>Check Out My Work</h1> 
+            <p style={styleRed} style={{fontSize:18, color:'white',  padding:'7%', alignContent:'center',fontFamily:"Helvetica, Arial, sans-serif"}} >          Through <b> ReBootKamp </b>experience, as team we worked on these projects:                  </p>
             <br></br>
             <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf" style={{color:'white', fontSize:16}}>
                 {projects}
