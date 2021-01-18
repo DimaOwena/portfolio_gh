@@ -22,7 +22,7 @@ class Portfolio extends Component {
            
 
                <div class="proj" style={{display:'inline-flex'}}>
-                <div  class="img test" style={{flex:1, paddingRight:20,justifyContent:'center'}}>
+                <div  class="img test" style={{flex:1, justifyContent:'center'}}>
                   <div style={{ display:"flex",justifyContent:'center'}}>
                   <a href={projects.url} title={projects.title}>
 
