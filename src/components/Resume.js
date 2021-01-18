@@ -82,7 +82,7 @@ class Resume extends Component {
             <h1 style={{fontSize:20}}><span>Experience</span></h1>
          </div>
 
-         <div className="nine columns main-col" style={{color:'black', fontSize:18,textAlign:"justify",textJustify: "inter-word",fontFamily:"URW Chancery L, cursive"}}>
+         <div className="nine columns main-col" style={{color:'black', fontSize:18,textAlign:"justify",textJustify: "inter-word",fontFamily:"Helvetica, Arial, sans-serif"}}>
           {experience}
         </div>
     </div>
@@ -97,7 +97,7 @@ class Resume extends Component {
 
          <div className="nine columns main-col" >
 
-            <p style={{color:'	#585858', fontSize:18, fontFamily:"URW Chancery L, cursive"}}>{skillmessage}
+            <p style={{color:'	#585858', fontSize:18, fontFamily:"Helvetica, Arial, sans-serif"}}>{skillmessage}
             </p>
 
 				<div >
