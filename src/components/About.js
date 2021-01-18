@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import Jump from 'react-reveal/Jump';
 class About extends Component {
   render() {
 
@@ -20,7 +20,7 @@ class About extends Component {
          <div className="nine columns main-col">
             <h2 style={{fontFamily:"URW Chancery L, cursive", fontSize:26, marginBottom:40}}>About Me</h2>
 
-            <p style={{color:'white', textAlign: 'justify',textJustify: 'inter-word', fontSize:18, fontFamily:"URW Chancery L, cursive"}}>{bio}</p>
+            <Jump><p style={{color:'white', textAlign: 'justify',textJustify: 'inter-word', fontSize:18, fontFamily:"URW Chancery L, cursive"}}>{bio}</p> </Jump> 
             <div className="row">
                <div className="columns contact-details">
                   <h2 style={{fontFamily:"URW Chancery L, cursive", fontSize:26, marginTop:30, marginBottom:40}}>Contact Details</h2>

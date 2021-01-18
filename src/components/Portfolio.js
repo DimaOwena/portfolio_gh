@@ -2,7 +2,9 @@ import React, { Component } from 'react';
 import kiddo from './portfolio/kiddo.png';
 import hotelcom from './portfolio/hotelcom.PNG'
 import explorepalestine from './portfolio/explorepalestine.PNG'
-
+import RubberBand from 'react-reveal/RubberBand';
+import Shake from 'react-reveal/Shake';
+import Pulse from 'react-reveal/Pulse';
 var images = {
   kiddo,
   hotelcom,
@@ -30,7 +32,7 @@ class Portfolio extends Component {
                         <a href={projects.url} title={projects.title} target="_blank">
                           <div className="overlay">
                             <div className="portfolio-item-meta">
-                              <h5 style={{fontSize:26,fontFamily:"URW Chancery L, cursive"}}>{projects.title}</h5>
+                              <Pulse> <h5 style={{fontSize:26,fontFamily:"URW Chancery L, cursive"}}>{projects.title}</h5></Pulse> 
                               <a href={projects.github} target="_blank"> <p  style={{fontFamily:"URW Chancery L, cursive",fontSize:18 }}>{projects.category} : github repositary</p></a>
                             </div>
                           </div>
