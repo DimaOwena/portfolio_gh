@@ -38,7 +38,7 @@ class Portfolio extends Component {
                           </div>
                         </a>
                         <p style={{fontFamily:"URW Chancery L, cursive",fontSize:18 }}>Technologies: {projects.technologies}</p>
-                        <p style={{fontSize:18 ,textAlign: 'justify',textJustify: 'inter-word', fontFamily:"Lucida Console, Courier New, monospace"}}>{projects.description}</p>
+                        <p style={{fontSize:18 ,textAlign: 'justify',textJustify: 'inter-word', fontFamily:"cursive"}}>{projects.description}</p>
                          {projects.title === "kiddo"?<label id="submit-div" style={{borderRadius:6, border: "1px solid white", width:'30%'}}><a href="https://www.youtube.com/watch?v=Vg748ApTsuI&feature=youtu.be&ab_channel=RazanAbusamra" target="_blank">Demo Video</a></label>:
                         <></> }
                       </div> 
