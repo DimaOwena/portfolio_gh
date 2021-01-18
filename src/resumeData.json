@@ -74,7 +74,7 @@
     "skills":[
      
       {
-        "name":"Jacascript"
+        "name":"Javascript"
       },
       {
         "name":"ReactJs"
@@ -86,7 +86,7 @@
         "name":"HTML"
       },
       {
-        "name":"JQuery"
+        "name":"Java"
       },
       {
         "name":"MongoDB"
@@ -95,13 +95,14 @@
         "name":"MySQL"
       },
       {
+        "name":"JQuery"
+      }
+      ,
+      {
+        "name":"Git"
+      },
+      {
         "name":"Python"
-      },
-      {
-        "name":"Java"
-      },
-      {
-        "name":"C"
       },
       {
         "name":"Data Structures & Algorithms"
@@ -110,8 +111,8 @@
         "name":"Computer Networking"
       },
       {
-        "name":"Git"
-      }  
+        "name":"C programming"
+      }
     ]
   },
   "portfolio":{

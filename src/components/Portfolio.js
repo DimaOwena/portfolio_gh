@@ -21,13 +21,16 @@ class Portfolio extends Component {
            
            
 
-               <div style={{display:'inline-flex'}}>
-                <div  style={{flex:1, paddingRight:20}}>
+               <div class="proj" style={{display:'inline-flex'}}>
+                <div  class="img test" style={{flex:1, paddingRight:20,justifyContent:'center'}}>
+                  <div style={{ display:"flex",justifyContent:'center'}}>
                   <a href={projects.url} title={projects.title}>
-                    {projects.title === "kiddo"?<img alt={projects.title} src={images[projects.image]} style={{height:500 }}/>  : <img alt={projects.title} src={images[projects.image]} style={{borderRadius:12, width:600}}/> }
-                  </a>
+
+                    {projects.title === "kiddo"?<img alt={projects.title} src={images[projects.image]} style={{width:250}}/>  : <img alt={projects.title} src={images[projects.image]} style={{borderRadius:12}}/> }
+                   </a>
+                  </div>
                 </div>
-                <div style={{flex:1}}>
+                <div class="parag" style={{flex:1}}>
                 <a href={projects.url} title={projects.title}>
               <div className="overlay">
                   <div className="portfolio-item-meta">
@@ -39,6 +42,9 @@ class Portfolio extends Component {
                 </a>
                <p><b>Technologies:</b> {projects.technologies}</p>
                   <p style={{fontSize:16 ,textAlign: 'justify',textJustify: 'inter-word'}}>{projects.description}</p>
+                  {projects.title === "kiddo"?<label id="submit-div" style={{borderRadius:6, border: "1px solid white", width:'30%'}}><a href="https://www.youtube.com/watch?v=Vg748ApTsuI&feature=youtu.be&ab_channel=RazanAbusamra" target="_blank">Demo Video</a></label>:
+                   <></> }
+                  
                 </div> 
                </div>
                <br></br>
@@ -57,7 +63,7 @@ class Portfolio extends Component {
 
          <div className="twelve columns collapsed">
 
-            <h1>Check Out My Work.</h1>
+            <h1 style={{fontSize:24}}>Check Out My Work</h1> 
             <pre style={styleRed} style={{fontSize:18, color:'white'}} >          Through <b> ReBootKamp </b>experience, as team we worked on these projects:                  </pre>
             <br></br>
             <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf" style={{color:'white', fontSize:16}}>

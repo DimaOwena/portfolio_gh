@@ -1,5 +1,30 @@
 import React, { Component } from 'react';
+import Javascript from './portfolio/Javascript.png';
+import CSS from './portfolio/CSS.png';
+import HTML from './portfolio/HTML.png';
+import Java from './portfolio/Java.png';
+import JQuery from './portfolio/JQuery.png';
+import ReactJs from './portfolio/ReactJs.png';
+import Python from './portfolio/Python.png';
+import MySQL from './portfolio/MySQL.png';
+import MongoDB from './portfolio/MongoDB.png';
+import Git from './portfolio/Git.png';
+// import  from './portfolio/';
+// import  from './portfolio/';
 
+var imgsObj = {
+  Java,
+  Javascript,
+  HTML,
+  CSS,
+  Git,
+  MongoDB,
+  MySQL,
+  Python,
+  JQuery,
+  ReactJs
+
+}
 class Resume extends Component {
   render() {
 
@@ -19,7 +44,11 @@ class Resume extends Component {
         </div>
       })
       var skills = this.props.data.skills.map(function(skills){
-        return <li id="skilllist" key={skills.name} style={{color:'black'}}><em style={{fontSize:18}}>{skills.name}</em></li>
+        // if(skills.name === 'Javascript'){
+        //   return <li id="skilllist" key={skills.name} style={{color:'black'}}><img src={Javascript} alt="opppps"/> <em style={{fontSize:18}}>{skills.name}</em></li>
+        // }else{
+        return <li id="skilllist" key={skills.name} style={{color:'black'}} style={{display:'flex', alignItems:'center'}}> <img src={imgsObj[skills.name]} alt="" style={{marginRight:4}}/><em style={{fontSize:16}}>{skills.name}</em></li>
+        // }
       })
     }
 
