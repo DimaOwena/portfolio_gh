@@ -378,6 +378,11 @@
      flex-direction: column;
      /* font-size: 16px; */
    }
+   .unskills {
+      -webkit-column-count: 2;
+      -moz-column-count: 2;
+       column-count: 2;
+   }
  }
 
 
