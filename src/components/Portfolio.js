@@ -66,7 +66,7 @@ class Portfolio extends Component {
             <h1 style={{fontSize:24}}>Check Out My Work</h1> 
             <pre style={styleRed} style={{fontSize:18, color:'white', margin:6}} >          Through <b> ReBootKamp </b>experience, as team we worked on these projects:                  </pre>
             <br></br>
-            <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf" style={{color:'white', fontSize:16, backgroundColor:'red', padding:10}}>
+            <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf" style={{color:'white', fontSize:16, padding:10}}>
                 {projects}
             </div>
           </div>
