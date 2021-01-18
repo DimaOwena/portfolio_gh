@@ -13,22 +13,22 @@ class About extends Component {
 
     return (
       <section id="about">
-      <div className="row">
+      <div className="row" >
          {/* <div className="three columns">
             <img className="profile-pic"  src={profilepic} alt="Tim Baker Profile Pic" />
          </div> */}
          <div className="nine columns main-col">
-            <h2>About Me</h2>
+            <h2 style={{fontFamily:"URW Chancery L, cursive", fontSize:26, marginBottom:40}}>About Me</h2>
 
-            <p style={{color:'white', textAlign: 'justify',textJustify: 'inter-word', fontSize:16}}>{bio}</p>
+            <p style={{color:'white', textAlign: 'justify',textJustify: 'inter-word', fontSize:18, fontFamily:"URW Chancery L, cursive"}}>{bio}</p>
             <div className="row">
                <div className="columns contact-details">
-                  <h2>Contact Details</h2>
+                  <h2 style={{fontFamily:"URW Chancery L, cursive", fontSize:26, marginTop:30, marginBottom:40}}>Contact Details</h2>
                   <p className="address">
-						   <span style={{color:'white'}}>{name}</span><br />
+						   <span style={{color:'white',fontFamily:"URW Chancery L, cursive", fontSize:18}}>{name}</span><br />
 						   <br />
-						   <span style={{color:'white'}}>{phone}</span><br />
-                     <span style={{color:'white'}}>{email}</span>
+						   <span style={{color:'white',fontFamily:"URW Chancery L, cursive", fontSize:18}}>{phone}</span><br />
+                     <span style={{color:'white',fontFamily:"URW Chancery L, cursive", fontSize:18}}>{email}</span>
 					   </p>
                </div>
                {/* <div className="columns download">
