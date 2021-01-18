@@ -528,7 +528,7 @@ h5 {
 .portfolio-item:hover .link-icon {
    opacity: 1;
 	-moz-opacity: 1;
-	filter:alpha(opacity=100);
+   filter:alpha(opacity=100);
 }
 
 /* popup modal */
@@ -1049,4 +1049,8 @@ footer .social-links li:first-child { margin-left: 0; }
 .parag {
    padding-left:7%;
    padding-right:7%;
+}
+
+#github-proj:hover {
+   color: rgb(255,231,21);
 }
