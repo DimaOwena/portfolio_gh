@@ -22,8 +22,8 @@ class Portfolio extends Component {
            
 
                <div class="proj" style={{display:'inline-flex'}}>
-                <div  class="img test" style={{flex:1, justifyContent:'center'}}>
-                  <div style={{ display:"flex",justifyContent:'center'}}>
+                <div  class="img" style={{flex:1, justifyContent:'center'}}>
+                  <div  style={{ display:"flex",justifyContent:'center'}}>
                   <a href={projects.url} title={projects.title}>
 
                     {projects.title === "kiddo"?<img alt={projects.title} src={images[projects.image]} style={{width:250}}/>  : <img alt={projects.title} src={images[projects.image]} style={{borderRadius:12}}/> }

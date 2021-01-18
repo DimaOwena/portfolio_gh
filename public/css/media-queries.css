@@ -383,6 +383,10 @@
       -moz-column-count: 2;
        column-count: 2;
    }
+   div.img {
+      margin-left: 7%;
+      margin-right: 7%;
+   }
  }
 
 
