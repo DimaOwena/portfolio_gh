@@ -1047,5 +1047,6 @@ footer .social-links li:first-child { margin-left: 0; }
 }
 
 .parag {
-   padding:7%;
+   padding-left:7%;
+   padding-right:7%;
 }
