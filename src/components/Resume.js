@@ -70,7 +70,7 @@ class Resume extends Component {
       </div>
 
 
-      <div className="row work">
+      <div className="row work" >
 
          <div className="three columns header-col">
             <h1 style={{fontSize:20}}><span>Experience</span></h1>

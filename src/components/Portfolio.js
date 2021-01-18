@@ -32,8 +32,8 @@ class Portfolio extends Component {
                 </div>
                 <div class="parag" style={{flex:1}}>
                 <a href={projects.url} title={projects.title}>
-              <div className="overlay">
-                  <div className="portfolio-item-meta">
+                 <div className="overlay">
+                 <div className="portfolio-item-meta">
                 
                  <h5 >{projects.title}</h5>
                  <a href={projects.github} target="_blank"> <p>{projects.category} : github repositary</p></a>
@@ -66,7 +66,7 @@ class Portfolio extends Component {
             <h1 style={{fontSize:24}}>Check Out My Work</h1> 
             <pre style={styleRed} style={{fontSize:18, color:'white', margin:6}} >          Through <b> ReBootKamp </b>experience, as team we worked on these projects:                  </pre>
             <br></br>
-            <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf" style={{color:'white', fontSize:16, padding:10}}>
+            <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf" style={{color:'white', fontSize:16}}>
                 {projects}
             </div>
           </div>

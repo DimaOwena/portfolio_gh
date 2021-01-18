@@ -888,7 +888,7 @@ call-to-action .button {
    height: auto;
    display: inline-block;
 	border-radius: 3px;
-   margin-left: 26%;
+   margin-left: 26%; 
 }
 #contact button.submit:hover {
 	color: #0D0D0D;
@@ -1042,3 +1042,10 @@ footer .social-links li:first-child { margin-left: 0; }
    justify-content: center;
 }
 
+#exp {
+   margin:5%
+}
+
+.parag {
+   padding:7%;
+}
