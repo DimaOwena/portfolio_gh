@@ -52,7 +52,7 @@ class Resume extends Component {
         // if(skills.name === 'Javascript'){
         //   return <li id="skilllist" key={skills.name} style={{color:'black'}}><img src={Javascript} alt="opppps"/> <em style={{fontSize:18}}>{skills.name}</em></li>
         // }else{
-        return<Pulse><li id="skilllist" key={skills.name} style={{color:'black',display:'flex', alignItems:'center'}}> <img src={imgsObj[skills.name]} alt="" style={{marginRight:4}}/><em style={{fontSize:16, color:'black',fontFamily:"URW Chancery L, cursive"}}>{skills.name}</em></li></Pulse> 
+        return<Pulse><li id="skilllist" key={skills.name} style={{color:'black',display:'flex', alignItems:'center'}}> <img src={imgsObj[skills.name]} alt="" style={{marginRight:4}}/><em style={{fontSize:16, color:'black',fontFamily:"Helvetica, Arial, sans-serif"}}>{skills.name}</em></li></Pulse> 
       
         // }
       })
