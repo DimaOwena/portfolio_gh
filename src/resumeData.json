@@ -1,7 +1,7 @@
 {
   "main": {
     "name":"Dima Owens",
-    "phone": "(971+)-526-089-251",
+    "phone": "(+971)-526-089-251",
     "description":"I was never excited as I am now, or nothing was exciting as coding…",
     "image":"profilepic.jpg",
     "bio":"Passionate entry-level full-stack developer with 4+ months of experience building full-stack projects, using MERN Stack & python django. Currently I am very convenient with javascript since I have been working on it for the last 5 months. Seeking a full-stack development role to pursue my passion for developing effective full-stack software products, where later on with improveing my knowledge and experience, upgrade my standing in the company.",
@@ -127,7 +127,7 @@
         "description":"Website that enables users viewing the available hotels of the decided specifications (city, date, rooms needed), using hotels API, connected with stripe API for booking & using JWT for user authentication."
       },
       {
-        "title":"kiddo",
+        "title":"Kiddo",
         "category":"thesis project",
         "image":"kiddo",
         "github":"https://github.com/TheBlackPearl-FinaleProject/Kiddo",
@@ -142,7 +142,7 @@
         "github":"https://github.com/Raptors-team/laflefne",
         "url":"https://laflefne.herokuapp.com/",
         "technologies": "MERN-Stack",
-        "description":"Website that enables the user book a trip. Here as teams, we exchanged the projects that we had created before (the green field project like the above one) so we picked this website then added many features to it like the ability to chat between users, admin-user with the ability to add new trips, delete users or make them admins, send trip invitation to other user…, payment process using stripe API."
+        "description":"Website that enables users book a trip. Take it from other team then added features to it: users can chat, send trips invitations, admin with the ability to add new trips, delete users or make them admins…, stripe API for payment."
       } 
     ]
   }

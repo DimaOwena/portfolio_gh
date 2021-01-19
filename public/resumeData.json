@@ -65,7 +65,7 @@
             "github":"https://github.com/Raptors-team/laflefne",
             "url":"https://laflefne.herokuapp.com/",
             "technologies": "MERN-Stack",
-            "description":"Website that enables the user book a trip. Here as teams, we exchanged the projects that we had created before (the green field project like the above one) so we picked this website then added many features to it like the ability to chat between users, admin-user with the ability to add new trips, delete users or make them admins, send trip invitation to other user…, payment process using stripe API."
+            "description":"Website that enables the user book a trip. Here as teams, we exchanged the projects that we had created before so we picked this website then added many features to it like the ability to chat between users, admin-user with the ability to add new trips, delete users or make them admins, send trip invitation to other user…, payment process using stripe API."
           } 
         ]
 
