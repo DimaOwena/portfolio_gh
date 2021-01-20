@@ -22,7 +22,7 @@ class About extends Component {
 
             <Jump><p style={{color:'white', textAlign: 'justify',textJustify: 'inter-word', fontSize:18, fontFamily:"Helvetica, Arial, sans-serif"}}>{bio}</p> </Jump> 
             <div className="row">
-               <div className="columns contact-details">
+               {/* <div className="columns contact-details">
                   <h2 style={{fontFamily:"Helvetica, Arial, sans-serif", fontSize:26, marginTop:30, marginBottom:40}}>Contact Details</h2>
                   <p className="address">
 						   <span style={{color:'white',fontFamily:"Helvetica, Arial, sans-serif", fontSize:18}}>{name}</span><br />
@@ -30,7 +30,7 @@ class About extends Component {
 						   <span style={{color:'white',fontFamily:"Helvetica, Arial, sans-serif", fontSize:18}}>{phone}</span><br />
                      <span style={{color:'white',fontFamily:"Helvetica, Arial, sans-serif", fontSize:18}}>{email}</span>
 					   </p>
-               </div>
+               </div> */}
                {/* <div className="columns download">
                   <p>
                      <a href={resumeDownload} className="button"><i className="fa fa-download"></i>Download Resume</a>

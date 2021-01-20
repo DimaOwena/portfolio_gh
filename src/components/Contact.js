@@ -89,8 +89,11 @@ class Contact extends Component {
 
 					   <h4>Phone</h4>
 					   <p className="address">
-						   {name}<br/>
 						   <span>{phone}</span>
+					   </p>
+                  <h4>Email</h4>  
+                  <p className="address">
+						   <span>{email}</span>
 					   </p>
 				   </div>
 
