@@ -63,7 +63,7 @@ class Portfolio extends Component {
          <div className="twelve columns collapsed">
 
             <h1 style={{fontSize:26, fontFamily:"Helvetica, Arial, sans-serif"}}>Check Out My Work</h1> 
-            <p style={styleRed} style={{fontSize:18, color:'white',  padding:'7%', alignContent:'center',fontFamily:"Helvetica, Arial, sans-serif", margin:0, paddingTop:0,paddingBottom:0}} >          Through <b> ReBootKamp </b>experience, as team we worked on these projects:                  </p>
+            <p style={styleRed} style={{fontSize:18, color:'white',  padding:'7%', alignContent:'center',fontFamily:"Helvetica, Arial, sans-serif", margin:0, paddingTop:0,paddingBottom:0}} >          Through <b> ReBootKamp </b>experience, as team we developed these projects:                  </p>
             <br></br>
             <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf" style={{color:'white', fontSize:16}}>
                 {projects}
