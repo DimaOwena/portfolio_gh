@@ -13,7 +13,9 @@ import Jump from 'react-reveal/Jump';
 import Shake from 'react-reveal/Shake';
 // import Flash from 'react-reveal/Flash'
 import Pulse from 'react-reveal/Pulse';
-
+import data from './portfolio/data.png';
+import c from './portfolio/c.png';
+import Computer_Networking from './portfolio/Computer-Networking.png'
 // import  from './portfolio/';
 // import  from './portfolio/';
 
@@ -27,8 +29,10 @@ var imgsObj = {
   MySQL,
   Python,
   JQuery,
-  ReactJs
-
+  ReactJs,
+  "Computer Networking": Computer_Networking,
+  "Data Structures & Algorithms":data,
+  "C-programming": c
 }
 class Resume extends Component {
   render() {
@@ -52,6 +56,7 @@ class Resume extends Component {
         // if(skills.name === 'Javascript'){
         //   return <li id="skilllist" key={skills.name} style={{color:'black'}}><img src={Javascript} alt="opppps"/> <em style={{fontSize:18}}>{skills.name}</em></li>
         // }else{
+          
         return<Pulse><li id="skilllist" key={skills.name} style={{color:'black',display:'flex', alignItems:'center'}}> <img src={imgsObj[skills.name]} alt="" style={{marginRight:4}}/><em style={{fontSize:16, color:'black',fontFamily:"Helvetica, Arial, sans-serif"}}>{skills.name}</em></li></Pulse> 
       
         // }
