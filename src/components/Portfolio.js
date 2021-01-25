@@ -43,7 +43,7 @@ class Portfolio extends Component {
               </a>
               <p style={{fontFamily:"Helvetica, Arial, sans-serif",fontSize:18 }}>Technologies: {projects.technologies}</p>
               <p style={{fontSize:18 ,textAlign: 'justify',textJustify: 'inter-word', fontFamily:"Helvetica, Arial, sans-serif"}}>{projects.description}</p>
-               {projects.title === "kiddo"?<label id="submit-div" style={{borderRadius:6, border: "1px solid white", width:'30%', paddingTop:'1%', paddingBottom:'1%'}}><a href="https://www.youtube.com/watch?v=Vg748ApTsuI&feature=youtu.be&ab_channel=RazanAbusamra" target="_blank">Demo Video</a></label>:
+               {projects.title === "Kiddo"?<label id="submit-div" style={{borderRadius:6, border: "1px solid white", width:'30%', paddingTop:'1%', paddingBottom:'1%'}}><a href="https://www.youtube.com/watch?v=Vg748ApTsuI&feature=youtu.be&ab_channel=RazanAbusamra" target="_blank">Demo Video</a></label>:
               <></> }
             </div> 
             </div>
