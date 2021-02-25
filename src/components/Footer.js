@@ -16,7 +16,7 @@ class Footer extends Component {
         <div className="twelve columns">
            <ul className="social-links">
               {networks}
-              <li key={8}><a href="https://drive.google.com/file/d/1Fudr3x778Uxic5GWyznRCJBM-X_KBzK3/view?usp=sharing" style={{}} target="_blank" ><i><img src={cv} style={{marginBottom:-5}} alt=""/></i></a></li>
+              <li key={8}><a href="https://drive.google.com/file/d/1pW-t_PxxaaaPL7IpVc9ovAQ4uOLH2bAI/view?usp=sharing" style={{}} target="_blank" ><i><img src={cv} style={{marginBottom:-5}} alt=""/></i></a></li>
              
            </ul>
 
