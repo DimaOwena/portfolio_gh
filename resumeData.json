@@ -1,6 +1,6 @@
 {
   "main": {
-    "name":"Dima Owens",
+    "name":"Dima Owena",
     "phone": "00971585147466",
     "description":"I was never excited as I am now, or nothing was exciting as coding…",
     "image":"profilepic.jpg",
@@ -12,12 +12,12 @@
     "social":[
       {
         "name":"linkedin",
-        "url":"https://www.linkedin.com/in/dima-owens-75169a166/",
+        "url":"https://www.linkedin.com/in/dima-owena/",
         "className":"fa fa-linkedin"
       },
       {
         "name":"github",
-        "url":"https://github.com/dimaOwens",
+        "url":"https://github.com/dimaOwena",
         "className":"fa fa-github"
       }
     ]
