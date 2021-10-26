@@ -1,23 +1,26 @@
 {
   "files": {
-    "main.css": "/portfolio_gh/static/css/main.bab0b925.chunk.css",
-    "main.js": "/portfolio_gh/static/js/main.5c11d647.chunk.js",
-    "main.js.map": "/portfolio_gh/static/js/main.5c11d647.chunk.js.map",
-    "runtime-main.js": "/portfolio_gh/static/js/runtime-main.af300c9e.js",
-    "runtime-main.js.map": "/portfolio_gh/static/js/runtime-main.af300c9e.js.map",
-    "static/js/2.b97ed8e2.chunk.js": "/portfolio_gh/static/js/2.b97ed8e2.chunk.js",
-    "static/js/2.b97ed8e2.chunk.js.map": "/portfolio_gh/static/js/2.b97ed8e2.chunk.js.map",
+    "main.css": "/portfolio_gh/static/css/main.e1515b8f.chunk.css",
+    "main.js": "/portfolio_gh/static/js/main.76cd6b92.chunk.js",
+    "main.js.map": "/portfolio_gh/static/js/main.76cd6b92.chunk.js.map",
+    "runtime-main.js": "/portfolio_gh/static/js/runtime-main.beb3584d.js",
+    "runtime-main.js.map": "/portfolio_gh/static/js/runtime-main.beb3584d.js.map",
+    "static/js/2.c8e888fb.chunk.js": "/portfolio_gh/static/js/2.c8e888fb.chunk.js",
+    "static/js/2.c8e888fb.chunk.js.map": "/portfolio_gh/static/js/2.c8e888fb.chunk.js.map",
     "index.html": "/portfolio_gh/index.html",
-    "static/css/main.bab0b925.chunk.css.map": "/portfolio_gh/static/css/main.bab0b925.chunk.css.map",
-    "static/js/2.b97ed8e2.chunk.js.LICENSE.txt": "/portfolio_gh/static/js/2.b97ed8e2.chunk.js.LICENSE.txt",
+    "static/css/main.e1515b8f.chunk.css.map": "/portfolio_gh/static/css/main.e1515b8f.chunk.css.map",
+    "static/js/2.c8e888fb.chunk.js.LICENSE.txt": "/portfolio_gh/static/js/2.c8e888fb.chunk.js.LICENSE.txt",
+    "static/media/coding7.4157d5ed.jpg": "/portfolio_gh/static/media/coding7.4157d5ed.jpg",
     "static/media/explorepalestine.6faa5f9e.PNG": "/portfolio_gh/static/media/explorepalestine.6faa5f9e.PNG",
+    "static/media/graduation.d0d5fa86.jpg": "/portfolio_gh/static/media/graduation.d0d5fa86.jpg",
     "static/media/hotelcom.361963a3.PNG": "/portfolio_gh/static/media/hotelcom.361963a3.PNG",
-    "static/media/kiddo.1f793b12.png": "/portfolio_gh/static/media/kiddo.1f793b12.png"
+    "static/media/kiddo.1f793b12.png": "/portfolio_gh/static/media/kiddo.1f793b12.png",
+    "static/media/passion.d4a43990.jpg": "/portfolio_gh/static/media/passion.d4a43990.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.af300c9e.js",
-    "static/js/2.b97ed8e2.chunk.js",
-    "static/css/main.bab0b925.chunk.css",
-    "static/js/main.5c11d647.chunk.js"
+    "static/js/runtime-main.beb3584d.js",
+    "static/js/2.c8e888fb.chunk.js",
+    "static/css/main.e1515b8f.chunk.css",
+    "static/js/main.76cd6b92.chunk.js"
   ]
 }
