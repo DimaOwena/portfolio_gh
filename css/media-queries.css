@@ -397,8 +397,18 @@
 
 
 
-
-
-
-
+.test {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: row;
+}
+ @media screen and (max-width: 800px){
+   /*Big smartphones [426px -> 600px]*/
+   .test {
+     flex-wrap: wrap;
+     flex-direction: column;
+   }
+ }
+ 
 
