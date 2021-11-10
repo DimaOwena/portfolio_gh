@@ -659,7 +659,7 @@ call-to-action .button {
 /* ------------------------------------------------------------------ */
 
 #testimonials {
-   background: #1F1F1F url(https://crunch.is/wp-content/uploads/2021/03/image14-600x600.jpg) no-repeat center center;
+   background: #1F1F1F url(https://cdn.wallpapersafari.com/34/42/T5SqAO.jpg) no-repeat center center;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    background-attachment: fixed;
@@ -672,6 +672,7 @@ call-to-action .button {
 #testimonials .text-container {
    padding-top: 96px;
    padding-bottom: 66px;
+   
 }
 
 #testimonials h1 {
